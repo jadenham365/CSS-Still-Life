@@ -45,6 +45,69 @@
     top: calc(50vh + 69.5px);
     
   }
+  
+  .cat {
+    
+    
+    position: absolute;
+    width: 50px;
+    height: 75px;
+    background: #000000;
+    border-top-left-radius: 75%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    left: 51vw;
+      top: 57vh;
+    
+    
+    
+    
+  }
+      
+    
+      
+  .cat::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+      height: 80px;
+   border: 8px solid #000000;
+    border-right: 0px;
+    border-top: 0px;
+    
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 40%;
+    top: -0.9vw;
+    left: -1vh;
+   
+    
+    
+  }
+    
+  
+  .cat::after {
+    
+    content: "";
+    position: absolute;
+      width: 30px;
+    height: 30px;
+      background: #000000;
+    border: 1px solid #000000;
+    border-top: 0px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 25%;
+    left: 1.3vw;
+    top: -1.8vh;
+/*     box-shadow: 10px 5px 0 #000000, -10px 5px 0 #000000; 
+     */
+    
+    
+    
+  }
+    
+  
    
 
 
@@ -57,3 +120,5 @@
 
 <div class="left"></div>
 <div class="right"></div>
+<div class="cat"></div>
+
