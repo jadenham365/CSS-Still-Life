@@ -1,3 +1,9 @@
+<!-- I don't feel like this is complete, but it took me a really long time to get to this point as it is, so I'll leave it alone.
+ -->
+
+<!-- the next steps would be to have the box open on the click of the button, but I need javascript and it was confusing me. I probably could have copy/pasted a simply button animation trigger that other people have made, but I specifically need there to be two possible animations--the cat dead or the cat alive--each with a 50% probability of occuring. would like to work on this more in the future and really flush it out! -->
+
+
 <style>
   :root {
 
@@ -36,22 +42,17 @@
 
 
   .button {
-
+    /* I would really like to style this better, like a proper big red button */
     position: absolute;
     top: calc(5vh + 15px);
     left: calc(5vw + 375px);
     height: 50px;
     width: 50px;
     border-radius: 50%;
-
     background: red;
     color: white;
+    /*     -webkit-text-stroke-color is bugged */
     font: bold 18px Impact, sans-serif;
-
-
-
-
-
     transform: rotate(-35deg) skew(35deg);
     box-shadow: -10px 7px 0px 3px white, -15px 10px 0px 6px black;
 
@@ -170,7 +171,7 @@
 
     border-top-left-radius: 100%;
     border-bottom-left-radius: 100%;
-    /*     OMG I ADDED THE BORDER BOTTOM LEFT RADIUS AND IT MADE THE PERFECT TAIL THIS WAS A TOTAL ACCIDENT */
+    /*     OMG I ADDED THE BORDER BOTTOM LEFT RADIUS AND IT MADE THE PERFECT TAIL THIS WAS A TOTAL ACCIDENT THIS IS SO EXCITING*/
     top: 60px;
     left: -20px;
 
