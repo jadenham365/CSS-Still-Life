@@ -240,3 +240,16 @@
 
 
 <button class="button">OPEN</button>
+
+<script>
+const boxTop = document.getElementsByClassName("top");
+const boxLeft = document.getElementsByClassName("left");
+  const boxRight = document.getElementsByClassName("right");
+  const openButton = document.getElementsByClassName("button");
+  
+  openButton.addEventListener("click", function() {
+    boxTop.style.top = "calc(45vh - 85px)";
+    
+  })
+
+</script>
